@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "template-mod",
+	"version": "${version}",
+	"name": "Template Mod",
+	"description": "Gatorex's version! This Mod will let you to choose every minecraft Soundtrack in Minecraft files!",
+	"authors": [
+		"Gatorex"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/user/Gatorex",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/template-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.gatorextest.mod.TemplateMod"
+		],
+		"fabric-datagen": [
+			"net.gatorextest.mod.TemplateModDataGenerator"
+		],
+		"client": [
+			"net.gatorextest.mod.ModClient"
+		]
+	},
+	"mixins": [
+		"template-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
