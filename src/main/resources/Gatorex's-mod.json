@@ -3,7 +3,7 @@
 	"package": "net.GatorexMusicSelector.mod.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"mixins": [
-		"ExampleMixin"
+		"GatorexMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

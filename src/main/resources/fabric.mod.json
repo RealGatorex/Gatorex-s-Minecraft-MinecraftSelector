@@ -26,7 +26,7 @@
 		]
 	},
 	"mixins": [
-		"Gatorex's-mod.json"
+		"Gatorexs-mod.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.19.3",
