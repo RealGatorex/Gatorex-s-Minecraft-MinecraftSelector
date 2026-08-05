@@ -1,28 +1,28 @@
 {
 	"schemaVersion": 1,
-	"id": "template-mod",
+	"id": "1.0.0",
 	"version": "${version}",
-	"name": "Template Mod",
+	"name": "Gatorex's Music Menu",
 	"description": "Gatorex's version! This Mod will let you to choose every minecraft Soundtrack in Minecraft files!",
 	"authors": [
 		"Gatorex"
 	],
 	"contact": {
 		"homepage": "https://modrinth.com/user/Gatorex",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/RealGatorex/Gatorex-s-Minecraft-MinecraftSelector"
 	},
 	"license": "MIT",
 	"icon": "assets/template-mod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.gatorextest.mod.TemplateMod"
+			"net.GatorexMusicSelector.mod.TemplateMod"
 		],
 		"fabric-datagen": [
-			"net.gatorextest.mod.TemplateModDataGenerator"
+			"net.GatorexMusicSelector.mod.TemplateModDataGenerator"
 		],
 		"client": [
-			"net.gatorextest.mod.ModClient"
+			"net.GatorexMusicSelector.mod.ModClient"
 		]
 	},
 	"mixins": [

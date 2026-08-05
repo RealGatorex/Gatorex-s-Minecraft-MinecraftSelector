@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "net.gatorextest.mod.mixin",
+	"package": "net.GatorexMusicSelector.mod.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"mixins": [
 		"ExampleMixin"

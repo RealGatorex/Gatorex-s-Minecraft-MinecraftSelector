@@ -1,4 +1,4 @@
-package net.gatorextest.mod;
+package net.GatorexMusicSelector.mod;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
